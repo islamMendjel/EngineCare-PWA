@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // Replace 'engine-care-web' with your actual repository name
-  base: '/engine-care-web/', 
+  base: '/EngineCare-PWA/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
